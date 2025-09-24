@@ -5,7 +5,7 @@ Below are the key results obtained from the Bitcoin price/volume dataset and the
 ---
 
 ## Performance Metrics
-
+![aa](results/images/model3_on_data4_metrics.png)
 - **Accuracy**: ~ 94% overall  
 - **Precision (Buy = 1)**: ~ 99%  
 - **Precision (Sell = 0)**: ~ 74%  
