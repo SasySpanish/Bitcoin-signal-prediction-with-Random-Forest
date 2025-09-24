@@ -15,7 +15,7 @@ Due to GitHub’s file size upload limitations, the full dataset was divided int
   - Purpose: **Used to train the Random Forest algorithm**  
 
 - **Part 4 (Folder: `data2/`)**  
-  - Period: immediately following Part 3  
+  - Period: **Sat Dec 08 2018 17:57:00 – Wed Mar 31 2021 02:00:00** (immediately following Part 3) 
   - Purpose: **Used to test the model and generate predictions**  
 
 ---
