@@ -38,9 +38,6 @@ Below are the key results obtained from the Bitcoin price/volume dataset and the
 - For practical trading strategies, one may want to improve detection of “Sell” signals (e.g. by adjusting decision threshold, using cost-sensitive learning, or adding more features).  
 - Because the evaluation was done on time-forward data (train on Part 3, test on Part 4), success suggests potential for real use, though backtested performance over different market regimes should be checked.  
 
-- The current model is of low complexity and cannot be used reliably for real trading decisions.
-
-- Misclassifications in the “Sell” class indicate that the model struggles to generalize across all signals.
 
 ### Future improvements could include:
 
