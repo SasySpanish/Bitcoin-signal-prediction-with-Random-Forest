@@ -12,9 +12,28 @@ Time Interval: Minute-level data
 
 Period: Dec 2011 – Mar 2021 (≈ 9.24 years)
 
-Total Records: 4,857,377 (risk of overfitting due to high granularity)
+Total Records: 4,857,377 (risk of overfitting due to high granularity) divided by 4 = 1,214,344 records each. 
 
 Main Variables: Timestamp, Close
+
+## Process Overview  
+
+To evaluate the model on realistic, unseen data, the dataset was divided into **four sequential parts**:  
+
+1. **Dataset Split**  
+   - Due to file size limitations and to simulate a real forecasting scenario, the full dataset was split into four chronological parts.  
+
+2. **Training Phase**  
+   - The **third dataset** was used to train the **Random Forest model**.  
+   - This set covers the period immediately before the test set, ensuring that the model learns from past information.  
+
+3. **Testing / Prediction Phase**  
+   - The trained model was then applied to the **fourth dataset**, which contains the **immediately following data**.  
+   - Predictions were generated on this unseen portion, simulating a real-world scenario where models are trained on past data and then used to predict future market signals.  
+
+4. **Goal**  
+   - This setup ensures that evaluation is not biased by data leakage and that the model’s performance reflects its ability to generalize to **future Bitcoin price movements**.  
+
 
 ## Methodology
 Signal Definition
