@@ -1,4 +1,4 @@
-# 📈 Project Results
+# Project Results
 
 Below are the key results obtained from the Bitcoin price/volume dataset and the Random Forest model trained for predicting buy/sell signals.
 
