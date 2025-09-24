@@ -40,9 +40,11 @@ Signal Definition
 
 - Golden Cross (Buy = 1):
 EWM[Short Term Price] > EWM[Long Term Price]
+A bullish technical pattern that occurs when the short-term moving average rises above the long-term moving average, suggesting upward momentum and a potential price increase.
 
 - Death Cross (Sell = 0):
 EWM[Short Term Price] < EWM[Long Term Price]
+A bearish technical pattern that occurs when the short-term moving average falls below the long-term moving average, indicating downward momentum and a potential price decline.
 
 Short-term EWM: 50 days (72,000 minutes)
 
