@@ -117,6 +117,6 @@ Metrics
 
 - Experiment with deep learning (LSTM, GRU) for time series forecasting
 
-
+## 
 
 From A.Gatto, L.Mosanghini & S.Spagnuolo collaboration.
